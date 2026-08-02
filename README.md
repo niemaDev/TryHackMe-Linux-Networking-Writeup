@@ -1,21 +1,15 @@
 # TryHackMe Lab Write-Up
 ## Linux Fundamentals Part 1 | What is Networking? | Intro to LAN
 
-**Student:** Gedion  
+**Student:** Nimet Eyayu 
 **Group:** George, Gedion Desalegne Group  
-**Date:** July 31, 2026  
+**Date:** August 2, 2026  
 
 ---
 
 ## Introduction
 
-This write-up documents my completion of three TryHackMe rooms:
-
-1. Linux Fundamentals Part 1
-2. What is Networking?
-3. Intro to LAN
-
-These labs provided hands-on experience with the Linux command line, networking fundamentals, and Local Area Network concepts — all essential skills for cybersecurity.
+Hey! So I completed three TryHackMe rooms - Linux Fundamentals Part 1, What is Networking?, and Intro to LAN. These labs were pretty cool because they taught me the basics of Linux and networking which are super important for cybersecurity. I'm gonna share what I learned from each room and show some screenshots of my work.
 
 ---
 
@@ -23,38 +17,59 @@ These labs provided hands-on experience with the Linux command line, networking 
 
 ### What I Learned
 
-- How to navigate the Linux file system using `cd`, `ls`, and `pwd`
-- Creating and managing files with `touch`, `cp`, `mv`, and `rm`
-- Understanding file permissions (read, write, execute)
-- Changing permissions with `chmod`
-- Using `man` to view command documentation
-- System information commands: `whoami`, `id`, `uname`
+This room was all about getting comfortable with the Linux command line. I learned some pretty basic but important stuff:
 
-### Commands I Used
+- **Navigation commands** like `cd`, `ls`, and `pwd` - these help you move around and see what's in folders
+- **Creating and managing files** with `touch`, `cp`, `mv`, and `rm`
+- **File permissions** - understanding read, write, execute and using `chmod` to change them
+- **Finding stuff** with `grep` - this was actually really useful
+
+### Commands I Actually Used
+
+Here are some commands I practiced:
 
 | Command | What It Does |
 |---------|--------------|
-| `ls -la` | List all files including hidden ones |
-| `cd /home` | Change directory to /home |
-| `pwd` | Show current directory |
-| `mkdir folder` | Create a new folder |
-| `touch file.txt` | Create a new file |
-| `cp file1 file2` | Copy file1 to file2 |
-| `mv file1 /newdir/` | Move file1 to a new folder |
-| `rm file.txt` | Delete a file |
-| `chmod 755 script.sh` | Set permissions |
-| `man ls` | View manual for ls |
+| `ls` | Shows what files/folders are in current directory |
+| `cd folder4` | Changes directory to folder4 |
+| `pwd` | Shows where I currently am |
+| `cat note.txt` | Shows what's inside a file |
+| `grep THM access.log` | Searches for "THM" in the file |
+| `echo TryHackMe` | Prints "TryHackMe" on screen |
+| `whoami` | Shows my username |
+
+### What I Did
+
+First, I started the Linux machine and connected to it. I was at `tryhackme@linux1` which was my username.
+
+I used `ls` and saw there were folders named folder1 to folder4 and a file called `access.log`. I explored each folder and in folder4 I found a file called `note.txt` which had "Hello World!" inside.
+
+I also used `grep` to search for "THM" in the `access.log` file. The command was `grep THM /home/tryhackme/access.log` and I found the flag `THM{ACCESS}`. That was pretty satisfying!
+
+I practiced `echo TryHackMe` which just displayed the text, and `whoami` which showed I was logged in as `tryhackme`. Basic stuff but good to practice.
 
 ### Screenshots
 
-*Figure 1: Navigating the Linux file system*
-![Linux Navigation](images/linux-navigation.png)
+*Figure 1: Checking what files are in my directory*
+![Linux Navigation](images/linux-ls.png)
 
-*Figure 2: File permissions demonstration*
-![Linux Permissions](images/linux-permissions.png)
+*Figure 2: Finding the flag using grep*
+![Linux Grep](images/linux-grep.png)
 
-*Figure 3: Completed Linux room tasks*
-![Linux Completion](images/linux-completion.png)
+*Figure 3: Interacting with the Linux machine and using whoami*
+![Linux Whoami](images/linux-whoami.png)
+
+*Figure 4: Exploring folders and finding the note.txt file*
+![Linux Folders](images/linux-folders.png)
+
+*Figure 5: Reading note.txt and seeing "Hello World!"*
+![Linux Hello World](images/linux-hello.png)
+
+*Figure 6: Using echo and trying to navigate*
+![Linux Echo](images/linux-echo.png)
+
+*Figure 7: More practice with commands*
+![Linux Practice](images/linux-practice.png)
 
 ---
 
@@ -62,26 +77,33 @@ These labs provided hands-on experience with the Linux command line, networking 
 
 ### What I Learned
 
-- The OSI Model (7 layers)
-- TCP vs UDP protocols
-- IP addressing basics
-- Common network ports:
-  - HTTP = 80
-  - HTTPS = 443
-  - SSH = 22
-  - DNS = 53
-- How routers, switches, and hubs work
+This room introduced networking concepts. I learned:
+
+- What an **IP address** is - it stands for Internet Protocol and has 4 parts called octets (like 10.112.177.231)
+- **MAC addresses** - these are physical addresses for devices, like `04:9E:44:99:A3:12`
+- The **OSI Model** and how data travels
+- **TCP vs UDP** - different ways to send data
+- **Common ports** - like HTTP (80), HTTPS (443), SSH (22), DNS (53)
+- **Ping** uses ICMP protocol to check if a server is alive
+
+### What I Did
+
+I learned that IP addresses identify devices on a network and MAC addresses are like physical serial numbers for network cards.
+
+I also learned about ping - it's a command to check if a server is online. I pinged `8.8.8.8` (Google's DNS) and got the flag `THM{I_PINGED_THE_SERVER}`.
+
+I also learned who invented the World Wide Web - it was Tim Berners-Lee!
 
 ### Screenshots
 
-*Figure 4: OSI Model exercise*
-![OSI Model](images/osi-model.png)
+*Figure 8: Understanding IP and MAC addresses*
+![Networking IP MAC](images/networking-ip-mac.png)
 
-*Figure 5: IP addressing task*
-![IP Addressing](images/ip-addressing.png)
+*Figure 9: Learning about the Internet and who invented WWW*
+![Networking Internet](images/networking-internet.png)
 
-*Figure 6: Port identification exercise*
-![Ports](images/ports.png)
+*Figure 10: Using ping to check if a server is online*
+![Networking Ping](images/networking-ping.png)
 
 ---
 
@@ -89,46 +111,69 @@ These labs provided hands-on experience with the Linux command line, networking 
 
 ### What I Learned
 
-- MAC addresses vs IP addresses
-- How ARP (Address Resolution Protocol) works
-- How DHCP assigns IP addresses
-- LAN topologies: star, bus, ring
-- Broadcast domains and collisions
+This room was about Local Area Networks. I learned:
+
+- **LAN** stands for Local Area Network
+- **Routers** do routing (obvious, right? lol)
+- **Switches** connect multiple devices on a network
+- **Topologies** - bus topology is cheap but star topology is expensive
+- **Subnetting** - dividing networks into smaller pieces
+- **Subnet masks** have 32 bits and octets range from 0-255
+- **ARP** stands for Address Resolution Protocol
+- **DHCP** - devices use DHCP Discover, Request, and ACK to get IP addresses
+
+### What I Did
+
+I learned about different network topologies. Bus topology is cheaper but star topology costs more. I did an interactive lab where I found topology flaws and got the flag `THM{TOPOLOGY_FLAWS}`.
+
+I also learned about subnetting which is dividing networks into smaller parts - super useful for security and efficiency.
+
+I learned about ARP (Address Resolution Protocol) which helps devices find each other using MAC addresses.
+
+And DHCP - this is how devices get IP addresses automatically. They send a Discover packet, then Request, then get an ACK (acknowledgment).
 
 ### Screenshots
 
-*Figure 7: MAC address identification*
-![MAC Address](images/mac-address.png)
+*Figure 11: Learning about LAN and network devices*
+![LAN Basics](images/lan-basics.png)
 
-*Figure 8: ARP demonstration*
-![ARP](images/arp.png)
+*Figure 12: Topologies and flags*
+![LAN Topologies](images/lan-topologies.png)
 
-*Figure 9: DHCP process explanation*
-![DHCP](images/dhcp.png)
+*Figure 13: Understanding subnetting*
+![LAN Subnetting](images/lan-subnetting.png)
+
+*Figure 14: Subnet mask questions*
+![LAN Subnet Mask](images/lan-subnetmask.png)
+
+*Figure 15: ARP (Address Resolution Protocol)*
+![LAN ARP](images/lan-arp.png)
+
+*Figure 16: DHCP packets (Discover, Request, ACK)*
+![LAN DHCP](images/lan-dhcp.png)
 
 ---
 
 ## Summary & Reflection
 
-Completing these three TryHackMe rooms gave me a strong foundation in Linux and networking.
+Honestly, these labs were really fun! The Linux one was my favorite because I got to actually type commands and see things happen. I already knew some basic commands but I learned new stuff like `grep` which is really useful for finding things in files.
 
-The Linux Fundamentals room helped me become comfortable with the command line. I now understand how to navigate the file system, manage files, and set permissions — essential skills for using security tools like Nmap, Metasploit, and Wireshark.
+The networking rooms helped me understand how the internet actually works. Before this, I knew what an IP address was but I didn't really understand MAC addresses or why we need both. Now I get it - IP is like your home address and MAC is like your physical house, both are needed!
 
-The Networking room taught me how data moves across networks. Understanding the OSI model, TCP vs UDP, and common ports gives me context for network security analysis.
+The LAN room was interesting because I never really thought about how networks are set up. I didn't know there were different topologies or what subnetting was. It makes sense though - businesses need to separate their employee network from guest WiFi for security.
 
-The Intro to LAN room showed me how devices communicate within local networks. Learning about MAC addresses, ARP, and DHCP helps me understand network scanning and defense strategies.
+### What Was Hard
 
-### Challenges I Faced
+Honestly, the hardest part was remembering all the Linux commands. Like, there are so many and they all have different options. But I practiced a lot and used the `man` command to read manuals when I got stuck.
 
-The hardest part was memorizing Linux commands and their options. I practiced each command multiple times and used the `man` command to explore different options. Understanding the difference between TCP and UDP also took some time, but the TryHackMe explanations helped.
+### What's Next?
 
-### Next Steps
+I want to continue with:
+- Linux Fundamentals Part 2 and 3
+- More networking rooms
+- Maybe try some beginner hacking rooms
 
-I plan to continue with:
-- Linux Fundamentals Parts 2 and 3
-- Network Security room
-- Wireshark 101
-- Jr. Penetration Tester learning path
+Overall, I had a great time doing these labs and I feel way more confident with Linux and networking now!
 
 ---
 
@@ -140,27 +185,6 @@ I plan to continue with:
 
 ---
 
-## Repository Structure
-
-```
-TryHackMe-Linux-Networking-Writeup/
-├── README.md           # This write-up
-└── images/             # All screenshots
-    ├── linux-navigation.png
-    ├── linux-permissions.png
-    ├── linux-completion.png
-    ├── osi-model.png
-    ├── ip-addressing.png
-    ├── ports.png
-    ├── mac-address.png
-    ├── arp.png
-    └── dhcp.png
-```
-
----
-
 **🔗 Repository Link:** https://github.com/niemaDev/TryHackMe-Linux-Networking-Writeup
 
 ---
-
-*⚠️ All work, screenshots, and reflections are my own. No AI tools were used in completing the labs or writing this documentation.*
