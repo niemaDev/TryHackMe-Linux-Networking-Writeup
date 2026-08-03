@@ -98,7 +98,7 @@ In this room i learn about networking concepts. Here is what i learned:
 
 ### What I Learn
 
-I learn the fundamental networking concepts. Networks are simply connected thing just like our connection to many friends .A network can be formed by anywhere from 2 devices to billions .The other fundamental concept that i learned through this room is internet. The Internet is one giant network that consists of many small networks within itself. there are two types of network private and public.
+I learn the fundamental networking concepts. A networks is a system of interconnected device that communicate with each other just like our connection to many friends .A network can be formed by anywhere from 2 devices to billions .The other fundamental concept that i learned through this room is internet. The Internet is one giant network that consists of many small networks within itself. there are two types of network private and public.
 IP address uses to identify devices on a network it is just like students id if the student changes school there id also change . MAC addresses are like physical serial numbers for network cards it is like fingerprint you were born with it every device gets mac address from the manufacture when it produced. there are two types of ip address the old one ipv4 and the new ipv6.
 The interesting thing with MAC addresses is that they can be faked or "spoofed" in a process known as spoofing. This spoofing occurs when a networked device pretends to identify as another using its MAC address. for preventing to happen this we need a bodyguard in this case we came across the concept of firewall. It makes sure the communication between two device are safe from other third party with a bad intention.
 
