@@ -74,10 +74,6 @@ Had an introduction to navigating around the filesystem & how we can use command
 
 ### Screenshots
 
-*Figure 1: Checking what files are in my directory*
-
-![Linux Navigation](images/linux-ls.png)
-
 *Figure 2: Finding the flag using grep*
 ![Linux Grep](images/linux-grep.png)
 
@@ -89,12 +85,6 @@ Had an introduction to navigating around the filesystem & how we can use command
 
 *Figure 5: Reading note.txt and seeing "Hello World!"*
 ![Linux Hello World](images/linux-hello.png)
-
-*Figure 6: Using echo and trying to navigate*
-![Linux Echo](images/linux-echo.png)
-
-*Figure 7: More practice with commands*
-![Linux Practice](images/linux-practice.png)
 
 ---
 
