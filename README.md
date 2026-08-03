@@ -1,15 +1,16 @@
 # TryHackMe Lab Write-Up
 ## Linux Fundamentals Part 1 | What is Networking? | Intro to LAN
 
-**Student:** Nimet Eyayu 
+**Student:** Nimet Eyayu Alemu  
+**ID:** CTC-3382-26
 **Group:** George, Gedion Desalegne Group  
-**Date:** August 2, 2026  
+**Date:** August 3, 2026  
 
 ---
 
 ## Introduction
 
-Hey! So I completed three TryHackMe rooms - Linux Fundamentals Part 1, What is Networking?, and Intro to LAN. These labs were pretty cool because they taught me the basics of Linux and networking which are super important for cybersecurity. I'm gonna share what I learned from each room and show some screenshots of my work.
+Hey! I completed three TryHackMe rooms - linux Fundamentals Part 1, What is networking?, and Intro to LAN. These labs were great for beginners in cyber security because they contain basics of Linux and networking. I'm gonna share what I learned from each room and show some screenshots of my work.
 
 ---
 
@@ -17,14 +18,14 @@ Hey! So I completed three TryHackMe rooms - Linux Fundamentals Part 1, What is N
 
 ### What I Learned
 
-This room was all about getting comfortable with the Linux command line. I learned some pretty basic but important stuff:
+In this room i learn basic and  fundamental linux commands: 
 
 - **Navigation commands** like `cd`, `ls`, and `pwd` - these help you move around and see what's in folders
 - **Creating and managing files** with `touch`, `cp`, `mv`, and `rm`
 - **File permissions** - understanding read, write, execute and using `chmod` to change them
 - **Finding stuff** with `grep` - this was actually really useful
 
-### Commands I Actually Used
+### Commands I Actually Used to solve the questions
 
 Here are some commands I practiced:
 
@@ -40,7 +41,7 @@ Here are some commands I practiced:
 
 ### What I Did
 
-First, I started the Linux machine and connected to it. I was at `tryhackme@linux1` which was my username.
+First, I click start lab machine button to connect to the machine. I was at `tryhackme@linux1` which was my username.
 
 I used `ls` and saw there were folders named folder1 to folder4 and a file called `access.log`. I explored each folder and in folder4 I found a file called `note.txt` which had "Hello World!" inside.
 
@@ -77,7 +78,7 @@ I practiced `echo TryHackMe` which just displayed the text, and `whoami` which s
 
 ### What I Learned
 
-This room introduced networking concepts. I learned:
+In this room i learn about networking concepts. Here is what i learned:
 
 - What an **IP address** is - it stands for Internet Protocol and has 4 parts called octets (like 10.112.177.231)
 - **MAC addresses** - these are physical addresses for devices, like `04:9E:44:99:A3:12`
@@ -88,7 +89,7 @@ This room introduced networking concepts. I learned:
 
 ### What I Did
 
-I learned that IP addresses identify devices on a network and MAC addresses are like physical serial numbers for network cards.
+I learned that IP addresses identify devices on a network it is just like students id if the student changes school there id also change . MAC addresses are like physical serial numbers for network cards it is like fingerprint you were born with it every device gets mac address from the manufacture when it produced.
 
 I also learned about ping - it's a command to check if a server is online. I pinged `8.8.8.8` (Google's DNS) and got the flag `THM{I_PINGED_THE_SERVER}`.
 
@@ -111,7 +112,7 @@ I also learned who invented the World Wide Web - it was Tim Berners-Lee!
 
 ### What I Learned
 
-This room was about Local Area Networks. I learned:
+In this room i learn about Local Area Networks. Here is the main content:
 
 - **LAN** stands for Local Area Network
 - **Routers** do routing (obvious, right? lol)
@@ -124,9 +125,9 @@ This room was about Local Area Networks. I learned:
 
 ### What I Did
 
-I learned about different network topologies. Bus topology is cheaper but star topology costs more. I did an interactive lab where I found topology flaws and got the flag `THM{TOPOLOGY_FLAWS}`.
+I learned about different network topologies. Bus topology is cheaper but star topology is expensive. I did an interactive lab where I found topology flaws and got the flag `THM{TOPOLOGY_FLAWS}`.
 
-I also learned about subnetting which is dividing networks into smaller parts - super useful for security and efficiency.
+I also learned about subnetting which is dividing networks into smaller parts it is just like slicing up a cake for your friends- super useful for security and efficiency.
 
 I learned about ARP (Address Resolution Protocol) which helps devices find each other using MAC addresses.
 
@@ -156,7 +157,7 @@ And DHCP - this is how devices get IP addresses automatically. They send a Disco
 
 ## Summary & Reflection
 
-Honestly, these labs were really fun! The Linux one was my favorite because I got to actually type commands and see things happen. I already knew some basic commands but I learned new stuff like `grep` which is really useful for finding things in files.
+Honestly, these labs were really fun and useful! The Linux one was my favorite because I got to actually type commands and see things happen. I already knew some basic commands but I learned new stuff like `grep` which is really useful for finding things in files.
 
 The networking rooms helped me understand how the internet actually works. Before this, I knew what an IP address was but I didn't really understand MAC addresses or why we need both. Now I get it - IP is like your home address and MAC is like your physical house, both are needed!
 
@@ -182,6 +183,7 @@ Overall, I had a great time doing these labs and I feel way more confident with 
 - TryHackMe. (2026). *Linux Fundamentals Part 1*. https://tryhackme.com/room/linuxfundamentalspart1
 - TryHackMe. (2026). *What is Networking?*. https://tryhackme.com/room/whatisnetworking
 - TryHackMe. (2026). *Intro to LAN*. https://tryhackme.com/room/introtolan
+
 
 ---
 
