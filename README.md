@@ -3,8 +3,6 @@
 
 **Student:** Nimet Eyayu Alemu  
 **ID:** CTC-3382-26          
-**Group:** George, Gedion Desalegne Group  
-**Date:** August 3, 2026  
 
 ---
 
@@ -135,10 +133,13 @@ In this room i learn about Local Area Networks. Here is the main content:
 in this room we see about lan. A LAN (Local Area Network) is a group of computers and electronic devices connected together across a small local area, such as a home network, an office building, or a school. Common examples include a home Wi-Fi connecting your phone and smart TV, or an office network sharing a single printer. we cover 3 types of Local Area Network (LAN) Topologies  here they are:
 Star Topology
 It is a devices are individually connected via a central networking device such as a switch or hub.
+![STAR TOPOLOGY](imagesScreenshot(1260).png)
 Bus Topology
 This type of connection relies upon a single connection which is known as a backbone cable.it is just like leaf off of a tree in the sense that devices.
+![BUS TOPOLOGY](images/Screenshot(1259).png)
 Ring Topology
 it has some similarity to token topology. Devices such as computers are connected directly to each other to form a loop, meaning that there is little cabling required and less dependence on dedicated hardware such as within a star topology.
+![RING TOPOLOGY](images/Screenshot(1258).png)
 I learned about different network topologies. Bus topology is cheaper but star topology is expensive. I did an interactive lab where I found topology flaws and got the flag `THM{TOPOLOGY_FLAWS}`.
 
 I also learned about subnetting which is dividing networks into smaller parts it is just like slicing up a cake for your friends- super useful for security and efficiency.
