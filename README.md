@@ -111,9 +111,6 @@ I also learned about ping - it's a command to check if a server is online. I pin
 *Figure 8: Understanding IP and MAC addresses*
 ![Networking IP MAC](images/networking-ip-mac.png)
 
-*Figure 9: Learning about the Internet and who invented WWW*
-![Networking Internet](images/networking-internet.png)
-
 *Figure 10: Using ping to check if a server is online*
 ![Networking Ping](images/networking-ping.png)
 
@@ -152,14 +149,8 @@ And DHCP - this is how devices get IP addresses automatically. They send a Disco
 
 ### Screenshots
 
-*Figure 11: Learning about LAN and network devices*
-![LAN Basics](images/lan-basics.png)
-
 *Figure 12: Topologies and flags*
 ![LAN Topologies](images/lan-topologies.png)
-
-*Figure 13: Understanding subnetting*
-![LAN Subnetting](images/lan-subnetting.png)
 
 *Figure 14: Subnet mask questions*
 ![LAN Subnet Mask](images/lan-subnetmask.png)
