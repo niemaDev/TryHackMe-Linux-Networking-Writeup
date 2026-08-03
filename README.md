@@ -52,6 +52,7 @@ I practiced `echo TryHackMe` which just displayed the text, and `whoami` which s
 ### Screenshots
 
 *Figure 1: Checking what files are in my directory*
+
 ![Linux Navigation](images/linux-ls.png)
 
 *Figure 2: Finding the flag using grep*
