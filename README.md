@@ -10,7 +10,7 @@
 
 ## Introduction
 
-Hey! This document contains write-up for three TryHackMe rooms that I completed as part of my cybersecurity training at INSA Cyber talent Summer Camp 2026. I completed three TryHackMe rooms - linux Fundamentals Part 1, What is networking?, and Intro to LAN. These labs were great for beginners in cyber security because they contain basics of Linux and networking. I'm gonna share what I learned from each room and show some screenshots of my work.
+This document contains write-up for three TryHackMe rooms that I completed as part of my cybersecurity training at INSA Cyber talent Summer Camp 2026. I completed three TryHackMe rooms - linux Fundamentals Part 1, What is networking?, and Intro to LAN. These labs were great for beginners in cyber security because they contain basics of Linux and networking. I'm gonna share what I learned from each room and show some screenshots of my work.
 Why These Labs Matter
 In cybersecurity, Linux and networking are the foundation of everything we do. Whether you're conducting penetration tests, defending networks, or analyzing traffic, you have  to understand these basics. These labs gave me hands-on experience that I can apply in real-world scenarios.
 This Report contains
@@ -147,7 +147,7 @@ In this room i learn about Local Area Networks. Here is the main content:
 ### What I Did
 in this room we see about lan. A LAN (Local Area Network) is a group of computers and electronic devices connected together across a small local area, such as a home network, an office building, or a school. Common examples include a home Wi-Fi connecting your phone and smart TV, or an office network sharing a single printer. we cover 3 types of Local Area Network (LAN) Topologies  here they are:
 Star Topology
-is a devices are individually connected via a central networking device such as a switch or hub
+It is a devices are individually connected via a central networking device such as a switch or hub.
 Bus Topology
 This type of connection relies upon a single connection which is known as a backbone cable.it is just like leaf off of a tree in the sense that devices.
 Ring Topology
@@ -156,7 +156,7 @@ I learned about different network topologies. Bus topology is cheaper but star t
 
 I also learned about subnetting which is dividing networks into smaller parts it is just like slicing up a cake for your friends- super useful for security and efficiency.
 
-I learned about ARP (Address Resolution Protocol) which helps devices find each other using MAC addresses.
+I see about ARP (Address Resolution Protocol) it allows a device to associate its MAC address with an IP address on the network.
 
 And DHCP - this is how devices get IP addresses automatically. They send a Discover packet, then Request, then get an ACK (acknowledgment).
 
@@ -184,7 +184,7 @@ And DHCP - this is how devices get IP addresses automatically. They send a Disco
 
 ## Summary & Reflection
 
-Honestly, these labs were really fun and useful! The Linux one was my favorite because I got to actually type commands and see things happen. I already knew some basic commands but I learned new stuff like `grep` which is really useful for finding things in files.
+Honestly, these labs were really fun and useful! The Linux one was my scary before this lab but know i become familiar to it. I already knew some basic commands and practice them in kali linux but I learned new stuff like `grep` which is really useful for finding things in files.
 
 The networking rooms helped me understand how the internet actually works. Before this, I knew what an IP address was but I didn't really understand MAC addresses or why we need both. Now I get it - IP is like your home address and MAC is like your physical house, both are needed!
 
