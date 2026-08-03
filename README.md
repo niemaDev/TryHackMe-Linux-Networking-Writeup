@@ -30,7 +30,7 @@ first let us see the definition of linux. Linux is a free and open source  opera
 
 and this is also concept like terminal and basic commands. here is commands i learn through this room
 - **Navigation commands** like `cd`, `ls`, and `pwd` - these help you move around and see what's in folders
-- **Creating and managing files** with `touch`, `cp`, `mv`, and `rm`
+- **Creating and managing files** with `touch` use to create empty file, `cp`, `mv`, and `rm`
 - **File permissions** - understanding read, write, execute and using `chmod` to change them
 - **Finding stuff** with `grep` - this was actually really useful
 
