@@ -152,14 +152,6 @@ And DHCP - this is how devices get IP addresses automatically. They send a Disco
 *Figure 12: Topologies and flags*
 ![LAN Topologies](images/lan-topologies.png)
 
-*Figure 14: Subnet mask questions*
-![LAN Subnet Mask](images/lan-subnetmask.png)
-
-*Figure 15: ARP (Address Resolution Protocol)*
-![LAN ARP](images/lan-arp.png)
-
-*Figure 16: DHCP packets (Discover, Request, ACK)*
-![LAN DHCP](images/lan-dhcp.png)
 
 ---
 
