@@ -56,13 +56,15 @@ I also used `grep` to search for "THM" in the `access.log` file. The command was
 
 I practiced `echo TryHackMe` which just displayed the text, and `whoami` which showed I was logged in as `tryhackme`. Basic stuff but good to practice.
 
-The most useful command that i learn is the command * find* because when i try to find a specific file it becomes a headache when i have to look through every single one just to try and look for specific file. If i know the file name that i went to open. I can just use  find -name passwords.txt(name of the file) where the command will look through every folder in our current directory for that specific file. and of course i couldn't pass without mention The command *grep*. This allows us to search the contents of files for specific value that we are looking for .If we went to see all files that has a specific file extension.
+The most useful command that i learn is the command find because when i try to find a specific file it becomes a headache when i have to look through every single one just to try and look for specific file. If i know the file name that i went to open. I can just use  find -name passwords.txt(name of the file) where the command will look through every folder in our current directory for that specific file. and of course i couldn't pass without mention The command grep. This allows us to search the contents of files for specific value that we are looking for .If we went to see all files that has a specific file extension.
 
 Here there are operators in linux such us:
-&	  This operator allows you to run commands in the background of your terminal.
-&& 	This operator allows you to combine multiple commands together in one line of your terminal.
-> 	 This operator is a redirector - meaning that we can take the output from a command (such as using cat to output a file)      and direct it other file.
->> 	This operator does the same function of the > operator but appends the output rather than replacing (meaning nothing is       overwritten).
+
+
+** &	**  This operator allows you to run commands in the background of your terminal.
+** && **	This operator allows you to combine multiple commands together in one line of your terminal.
+** >	 **  This operator is a redirector - meaning that we can take the output from a command (such as using cat to output a            file) and direct it other file.
+** >> **	This operator does the same function of the > operator but appends the output rather than replacing (meaning                  nothing is  overwritten).
 
 
 ### Screenshots
