@@ -2,7 +2,8 @@
 ## Linux Fundamentals Part 1 | What is Networking? | Intro to LAN
 
 **Student:** Nimet Eyayu Alemu  
-**ID:** CTC-3382-26
+**ID:** CTC-3382-26          
+
 **Group:** George, Gedion Desalegne Group  
 **Date:** August 3, 2026  
 
