@@ -136,11 +136,9 @@ It is a devices are individually connected via a central networking device such 
 ![Star Topology](images/star-topology.png)
 Bus Topology
 This type of connection relies upon a single connection which is known as a backbone cable.it is just like leaf off of a tree in the sense that devices.
-![BUS TOPOLOGY](images/Screenshot(1259).png)
 ![Bus Topology](images/bus-topology.png)
 Ring Topology
 it has some similarity to token topology. Devices such as computers are connected directly to each other to form a loop, meaning that there is little cabling required and less dependence on dedicated hardware such as within a star topology.
-![RING TOPOLOGY](images/Screenshot(1258).png)
 ![Ring Topology](images/ring-topology.png)
 I learned about different network topologies. Bus topology is cheaper but star topology is expensive. I did an interactive lab where I found topology flaws and got the flag `THM{TOPOLOGY_FLAWS}`.
 
